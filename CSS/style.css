@@ -5,6 +5,31 @@ body {
     background-color:#0083dd;
 }
 
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+table#stream {
+    margin-top: 50px;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul#horizontal-list {
+    min-width: 696px;
+    list-style: none;
+}
+
+ul#horizontal-list li {
+    display: inline;
+}
+
 .container {
     min-height:100%;
     position:relative;
@@ -26,6 +51,11 @@ body {
     width: 100%;
     height: 0px;
     border-bottom: 5px solid #ffffff;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
 }
 
 .footer img {
