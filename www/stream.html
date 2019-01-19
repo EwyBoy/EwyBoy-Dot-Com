@@ -1,29 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" style="overflow: hidden">
     <head>
-        <title>Stream</title>
-        <link rel="stylesheet" href="CSS/style.css">
-        <link rel="stylesheet" href="CSS/text.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
         <script src="js/elements.js"></script>
-        <script type="application/ld+json">{"@context": "http://schema.org","@type": "website","url": "http://ewyboy.com/","name": "EwyBoy","image": "http://ewyboy.com/assets/images/me.png","inLanguage": "en-US","headline": "EwyBoy's Website"}</script>
+        <script src="js/metadata.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
+        <title>Stream</title>
     </head>
     <body>
-        <center>
-            <div id="container">
-                <div id="header" class="header"></div>
-                <table id="stream">
-                    <tr>
-                        <td>
-                            <iframe src="https://player.twitch.tv/?channel=ewyboy" frameborder="0" allowfullscreen="true" scrolling="no" height="540" width="955"></iframe>
-                        </td>
-                        <td>
-                            <iframe src="https://www.twitch.tv/embed/ewyboy/chat?darkpopout" frameborder="0" scrolling="no" height="540" width="350"></iframe>
-                        </td>
-                    </tr>
-                </table>
-                <div id="footer" class="footer"></div>
-            </div>
-        </center>
+        <div id="header" class="header"></div>
+
+        <table style="height: 95vh" width="100%">
+            <tr>
+                <td width="80%" style="border-right: solid #209cee">
+                    <iframe src="https://player.twitch.tv/?channel=ewyboy" allowfullscreen="true" scrolling="no" height="100%" width="100%"></iframe>
+                </td>
+                <td style="border-left: solid #209cee">
+                    <iframe src="https://www.twitch.tv/embed/ewyboy/chat?darkpopout" scrolling="no" height="100%" width="100%"></iframe>
+                </td>
+            </tr>
+        </table>
     </body>
 </html>
